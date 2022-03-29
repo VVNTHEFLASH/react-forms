@@ -1,0 +1,137 @@
+.step{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    box-shadow: 0 0 4px grey;
+    width: 30%;
+}
+.stepName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dash{
+    position: relative;
+    bottom: 34px;
+    color: grey;
+}
+.stepActive{
+    height: 25px;
+    color: white;
+    width: 25px;
+    background: slateblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    background: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.category{
+    display: flex;
+    justify-content: space-evenly;
+}
+.active{
+    border-bottom: solid slateblue 3px;
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.switch{
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+}
+.formOne>input{
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-bottom: solid grey 2px;
+    outline: none;
+}
+
+.nextBtn{
+    padding: 10px;
+    background: slateblue;
+    border: none;
+    width: 100px;
+    color: #fff;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.prevBtn{
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    border: slateblue solid 1px;
+    padding: 10px;
+    color: slateblue;
+    width: 100px;
+    background: white;
+}
+.formTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.tag-head{
+    color: grey;
+    width: 200px;
+    margin-right: 160px;
+}
+.tag>select{
+    border: none;
+    border-bottom: 3px solid grey;
+    outline: none;
+}
+#tag-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+}
+#tag-child>input{
+    width: 200%;
+    padding: 8px;
+    border: none;
+    border-bottom: solid grey 2px;
+    outline: none;
+}
+.gb{
+    position: relative;
+    bottom: 100px;
+}
